@@ -40,6 +40,9 @@ header {
   width: 130px;
   padding: 0 50px;
 }
+.container__displayLists__displayImg img:hover {
+  cursor: pointer;
+}
 .container__displayPlayers {
   display: flex;
   justify-content: space-between;

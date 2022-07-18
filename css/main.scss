@@ -44,6 +44,10 @@ header {
       width: 130px;
       padding: 0 50px;
     }
+
+    &__displayImg img:hover {
+      cursor: pointer;
+    }
   }
 
   &__displayPlayers {
