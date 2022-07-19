@@ -35,18 +35,30 @@
             <div>
                 <img src="png/icons8-human-head-96.png" alt="">
                 <h3>You</h3>
-                <h3>Score: </h3>
+                <h3>Score: <span id="playerScore">0</span></h3>
             </div>
         </div>
         <div class="container__displayPlayers__playerCard">
             <img src="png/icons8-computer-96.png" alt="">
             <h3>Computer</h3>
-            <h3>Score: </h3>
+            <h3>Score: <span id="computerScore">0</span></h3>
         </div>
     </div>
-    <div>
-        <div></div>
-        <div></div>
+    <div class="container__result">
+        <div class="container__result__singleResult">
+            <span id="singleResult">Single Game Result</span>
+        </div>
+        <div class="container__result__finalResult">
+            <span id="finalResult"></span>
+        </div>
+        <div class="container__result__restart">
+            <button id="restart" class="container__result__restart__btn">
+                Restart
+            </button>
+        </div>
+        <div class="container__result__gameRemain">
+            <h3>Game Remain: <span id="numPlay">5</span></h3>
+        </div>
     </div>
 </div>
 
